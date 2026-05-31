@@ -1,0 +1,22 @@
+/* Variables globales: colores, tipografías, espaciados, etc. */
+:root {
+  /* Colores institucionales SERCOTEC */
+  --color-primario: #0056B3;      /* Azul Sercotec */
+  --color-secundario: #E30613;    /* Rojo Sercotec */
+  --color-gris-claro: #F5F5F5;
+  --color-gris-medio: #D1D5DB;
+  --color-gris-oscuro: #222222;
+  --color-blanco: #FFFFFF;
+  
+
+  /* Compatibilidad y utilidades */
+  --primary-color: var(--color-primario);
+  --secondary-color: var(--color-blanco);
+  --accent-color: #f7b500;
+  --text-color: var(--color-gris-oscuro);
+  --background-color: var(--color-gris-claro);
+  --font-family: 'Segoe UI', Arial, sans-serif;
+  --border-radius: 8px;
+  --shadow: 0 2px 8px rgba(0,0,0,0.07);
+  --spacing: 1.5rem;
+}

@@ -1,0 +1,96 @@
+/* Estilos para la sección hero institucional SERCOTEC */
+.hero {
+  background: linear-gradient(90deg, var(--color-primario) 60%, var(--color-secundario) 100%);
+  color: var(--color-blanco);
+  padding: 64px 0 48px 0;
+}
+.hero__contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 48px;
+  flex-wrap: wrap;
+  padding: 0 32px;
+}
+.hero__contenido {
+  flex: 1 1 350px;
+  min-width: 300px;
+}
+.hero__contenido h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+  color: var(--color-blanco);
+}
+.hero__contenido p {
+  font-size: 1.25rem;
+  margin-bottom: 32px;
+  color: var(--color-gris-claro);
+}
+.hero__cta {
+  display: inline-block;
+  background: var(--color-secundario);
+  color: var(--color-blanco);
+  font-weight: 700;
+  padding: 14px 36px;
+  border-radius: var(--border-radius);
+  font-size: 1.1rem;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s, color 0.2s;
+  border: 2px solid var(--color-blanco);
+}
+.hero__cta:hover {
+  background: var(--color-primario);
+  color: var(--color-blanco);
+  border-color: var(--color-secundario);
+}
+.hero__imagen {
+  flex: 1 1 320px;
+  min-width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero__imagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 480px;
+  min-height: 260px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  position: relative;
+}
+.hero__imagen img {
+  height: 80%;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 22px;
+  box-shadow: 0 16px 64px 0 rgba(30,40,80,0.22), 0 2px 16px 0 rgba(0,0,0,0.10);
+  background: rgba(255,255,255,0.10);
+  backdrop-filter: blur(2.5px);
+  display: block;
+  object-fit: cover;
+  transition: box-shadow 0.3s, transform 0.3s, background 0.3s;
+}
+
+@media (max-width: 900px) {
+  .hero__contenedor {
+    flex-direction: column-reverse;
+    gap: 32px;
+    padding: 0 16px;
+  }
+  .hero {
+    padding: 48px 0 32px 0;
+  }
+  .hero__contenido h1 {
+    font-size: 2.1rem;
+  }
+  .hero__imagen {
+    height: 300px;
+  }
+}

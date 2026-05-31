@@ -1,0 +1,35 @@
+/* Media queries y adaptaciones responsive para la barra de navegación y layout */
+
+@media (max-width: 900px) {
+  .hero__contenedor {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+  .hero__imagen {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .barra-navegacion__menu {
+    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    display: none;
+    gap: 0;
+    box-shadow: var(--shadow);
+  }
+  .barra-navegacion__menu.activo {
+    display: flex;
+  }
+  .barra-navegacion__boton {
+    display: block;
+  }
+  .barra-navegacion__contenedor {
+    position: relative;
+  }
+}

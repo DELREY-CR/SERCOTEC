@@ -1,0 +1,120 @@
+/* Carrusel de testimonios - 3 tarjetas principales */
+.testimonios {
+  width: 100%;
+  background: #fff;
+  padding: 72px 0 56px 0;
+  display: flex;
+  justify-content: center;
+}
+.testimonios__contenedor {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+.testimonios__titulo {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: var(--color-primario, #0056B3);
+  margin-bottom: 2.5rem;
+}
+.testimonios__carrusel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  position: relative;
+}
+.testimonio-tarjeta {
+  background: #f5f5f5;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 32px 22px 22px 22px;
+  min-width: 240px;
+  max-width: 320px;
+  flex: 1 1 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+.testimonio-tarjeta__img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 16px;
+  border: 1.5px solid var(--color-primario, #0056B3);
+}
+.testimonio-tarjeta__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+.testimonio-tarjeta__comentario {
+  font-size: 1.08rem;
+  color: #222;
+  margin-bottom: 14px;
+  font-style: italic;
+}
+.testimonio-tarjeta__usuario {
+  font-size: 0.98rem;
+  color: #555;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonio-tarjeta__nombre {
+  font-weight: 700;
+  color: var(--color-primario, #0056B3);
+}
+.testimonio-tarjeta__red {
+  font-size: 0.92rem;
+  color: #888;
+}
+.testimonios__control {
+  background: var(--color-primario, #0056B3);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonios__control:hover {
+  background: var(--color-secundario, #E30613);
+}
+@media (max-width: 900px) {
+  .testimonios__carrusel {
+    gap: 12px;
+  }
+  .testimonio-tarjeta {
+    min-width: 160px;
+    max-width: 98vw;
+    padding: 18px 6px 12px 6px;
+  }
+}
+@media (max-width: 600px) {
+  .testimonios {
+    padding: 36px 0 24px 0;
+  }
+  .testimonios__titulo {
+    font-size: 1.3rem;
+  }
+  .testimonio-tarjeta {
+    min-width: 100px;
+    max-width: 98vw;
+    padding: 10px 2px 8px 2px;
+  }
+  .testimonios__carrusel {
+    flex-direction: column;
+  }
+}

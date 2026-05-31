@@ -1,0 +1,56 @@
+/* Footer moderno para SERCOTEC */
+.footer {
+  background: #1a237e;
+  color: #fff;
+  padding: 36px 0 18px 0;
+  margin-top: 0;
+}
+.footer__contenedor {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+.footer__logo-redes {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.footer__logo {
+  height: 48px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+.footer__redes {
+  display: flex;
+  gap: 18px;
+}
+.footer__icono {
+  color: #fff;
+  font-size: 1.7rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer__icono:hover {
+  color: #ffb300;
+}
+.footer__info {
+  font-size: 1.05rem;
+  text-align: center;
+  opacity: 0.85;
+}
+@media (max-width: 600px) {
+  .footer__contenedor {
+    gap: 10px;
+  }
+  .footer__logo-redes {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer__logo {
+    height: 38px;
+  }
+}

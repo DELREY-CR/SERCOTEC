@@ -1,0 +1,84 @@
+/* Estilos modernos para la sección de contacto */
+.contacto {
+  background: #f7f7fa;
+  padding: 64px 0 48px 0;
+}
+.contacto__contenedor {
+  max-width: 480px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.08);
+  padding: 40px 32px 32px 32px;
+}
+.contacto__titulo {
+  text-align: center;
+  font-size: 2.1rem;
+  color: var(--color-primario, #1a237e);
+  margin-bottom: 32px;
+  font-weight: 700;
+}
+.contacto__formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.contacto__campo {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.contacto__campo label {
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 2px;
+}
+.contacto__campo input,
+.contacto__campo select {
+  padding: 10px 14px;
+  border: 1.5px solid #c5cae9;
+  border-radius: 7px;
+  font-size: 1rem;
+  background: #f4f6fb;
+  transition: border-color 0.2s;
+}
+.contacto__campo input:focus,
+.contacto__campo select:focus {
+  border-color: var(--color-primario, #1a237e);
+  outline: none;
+  background: #fff;
+}
+.contacto__error {
+  color: #d32f2f;
+  font-size: 0.93rem;
+  min-height: 18px;
+  margin-top: 1px;
+}
+.contacto__enviar {
+  background: var(--color-primario, #1a237e);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+.contacto__enviar:hover {
+  background: #3949ab;
+}
+.contacto__mensaje {
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+@media (max-width: 600px) {
+  .contacto__contenedor {
+    padding: 24px 8px 18px 8px;
+  }
+  .contacto__titulo {
+    font-size: 1.4rem;
+  }
+}

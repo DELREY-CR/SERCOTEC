@@ -1,0 +1,22 @@
+[
+  {
+    "titulo": "Asesoría personalizada",
+    "descripcion": "Recibe orientación experta para formalizar, crecer y digitalizar tu negocio.",
+    "icono": "💼"
+  },
+  {
+    "titulo": "Capacitación y talleres",
+    "descripcion": "Participa en cursos y talleres prácticos para potenciar tus habilidades emprendedoras.",
+    "icono": "🎓"
+  },
+  {
+    "titulo": "Concursos y fondos",
+    "descripcion": "Accede a programas de financiamiento y postulaciones a fondos concursables.",
+    "icono": "💰"
+  },
+  {
+    "titulo": "Red de contactos",
+    "descripcion": "Conecta con otros emprendedores y accede a oportunidades de networking.",
+    "icono": "🤝"
+  }
+]

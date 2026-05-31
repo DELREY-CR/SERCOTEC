@@ -1,0 +1,72 @@
+[
+  {
+    "usuario": "@carla_emprende",
+    "nombre": "Carla Rojas",
+    "comentario": "Gracias a SERCOTEC logré formalizar mi negocio y ahora vendo online a todo Chile. ¡Recomendado!",
+    "red": "Instagram",
+    "imagen": "https://randomuser.me/api/portraits/women/1.jpg"
+  },
+  {
+    "usuario": "@juanpyme",
+    "nombre": "Juan Pérez",
+    "comentario": "Las capacitaciones me ayudaron a mejorar mi gestión y aumentar mis ventas.",
+    "red": "Twitter",
+    "imagen": "https://randomuser.me/api/portraits/men/2.jpg"
+  },
+  {
+    "usuario": "@maria.crece",
+    "nombre": "María López",
+    "comentario": "El financiamiento de SERCOTEC fue clave para lanzar mi cafetería.",
+    "red": "Facebook",
+    "imagen": "https://randomuser.me/api/portraits/women/3.jpg"
+  },
+  {
+    "usuario": "@rodrigo.innova",
+    "nombre": "Rodrigo Díaz",
+    "comentario": "Excelente red de contactos, he hecho alianzas con otros emprendedores.",
+    "red": "LinkedIn",
+    "imagen": "https://randomuser.me/api/portraits/men/4.jpg"
+  },
+  {
+    "usuario": "@paula.talleres",
+    "nombre": "Paula Herrera",
+    "comentario": "Los talleres son prácticos y los relatores muy claros. Aprendí mucho.",
+    "red": "Instagram",
+    "imagen": "https://randomuser.me/api/portraits/women/5.jpg"
+  },
+  {
+    "usuario": "@felipe.red",
+    "nombre": "Felipe Castro",
+    "comentario": "SERCOTEC me ayudó a digitalizar mi emprendimiento y llegar a más clientes.",
+    "red": "Twitter",
+    "imagen": "https://randomuser.me/api/portraits/men/6.jpg"
+  },
+  {
+    "usuario": "@camila.creativa",
+    "nombre": "Camila Silva",
+    "comentario": "El acompañamiento es constante y personalizado. ¡Muy agradecida!",
+    "red": "Facebook",
+    "imagen": "https://randomuser.me/api/portraits/women/7.jpg"
+  },
+  {
+    "usuario": "@andres.pyme",
+    "nombre": "Andrés González",
+    "comentario": "Recomiendo SERCOTEC a todos los que quieren crecer con su pyme.",
+    "red": "Instagram",
+    "imagen": "https://randomuser.me/api/portraits/men/8.jpg"
+  },
+  {
+    "usuario": "@valentina.tienda",
+    "nombre": "Valentina Torres",
+    "comentario": "El apoyo financiero fue fundamental para renovar mi tienda.",
+    "red": "LinkedIn",
+    "imagen": "https://randomuser.me/api/portraits/women/9.jpg"
+  },
+  {
+    "usuario": "@ricardo.negocio",
+    "nombre": "Ricardo Morales",
+    "comentario": "Gracias a SERCOTEC ahora tengo presencia en redes sociales y más clientes.",
+    "red": "Facebook",
+    "imagen": "https://randomuser.me/api/portraits/men/10.jpg"
+  }
+]

@@ -1,0 +1,186 @@
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SERCOTEC</title>
+  <link rel="stylesheet" href="assets/css/root.css">
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/barra-navegacion.css">
+  <link rel="stylesheet" href="assets/css/hamburgers.css">
+  <link rel="stylesheet" href="assets/css/responsivo.css">
+  <link rel="stylesheet" href="assets/css/hero.css">
+  <link rel="stylesheet" href="assets/css/nosotros.css">
+  <link rel="stylesheet" href="assets/css/sobre-nosotros.css">
+  <link rel="stylesheet" href="assets/css/servicios.css">
+  <link rel="stylesheet" href="assets/css/testimonios.css">
+  <link rel="stylesheet" href="assets/css/faq.css">
+  <link rel="stylesheet" href="assets/css/contacto.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+  <!-- Navbar Responsive -->
+  <nav class="barra-navegacion">
+    <div class="contenedor barra-navegacion__contenedor">
+      <a href="#" class="barra-navegacion__logo">
+        <img src="assets/imagenes/logo-sercotec.png" alt="Logo SERCOTEC" style="height:56px;vertical-align:middle;margin-right:18px;display:inline-block;">
+      </a>
+      <button class="hamburger hamburger--spin" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <ul class="barra-navegacion__menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#preguntas">Preguntas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero principal -->
+  <section id="inicio" class="hero">
+    <div class="contenedor hero__contenedor">
+      <div class="hero__contenido">
+        <h1>Impulsa tu negocio con SERCOTEC</h1>
+        <p>Apoyamos a micro, pequeñas y medianas empresas en Santiago para crecer y formalizarse.</p>
+        <a href="#contacto" class="hero__cta">Contáctanos</a>
+      </div>
+      <div class="hero__imagen">
+        <img src="assets/imagenes/sercotec-hero.jpg" alt="Emprendedores SERCOTEC">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Sección Sobre Nosotros moderna -->
+  <section class="sobre-nosotros" id="sobre-nosotros">
+    <div class="sobre-nosotros__contenedor">
+      <div class="sobre-nosotros__imagen">
+        <img src="assets/imagenes/sercotec-hero.jpg" alt="Equipo SERCOTEC Santiago">
+      </div>
+      <div class="sobre-nosotros__info">
+        <h2 class="sobre-nosotros__titulo">Impulsando sueños, construyendo futuro</h2>
+        <p class="sobre-nosotros__descripcion">
+          Somos un equipo apasionado por el emprendimiento y la innovación. En <strong>SERCOTEC Santiago</strong> acompañamos a quienes quieren crecer, formalizarse y dejar huella en su comunidad.<br><br>
+          Creemos en el poder de las ideas, el trabajo colaborativo y el impacto social de las pymes. Nuestra misión es ser el puente entre tu proyecto y el éxito sostenible.
+        </p>
+        <div class="sobre-nosotros__carrusel" id="sobre-nosotros-carrusel">
+          <div class="sobre-nosotros__item activo">
+            <span class="sobre-nosotros__icono">🎯</span>
+            <h3>Misión</h3>
+            <p>Apoyar y fortalecer a emprendedores y pymes, entregando herramientas y oportunidades para su desarrollo integral.</p>
+          </div>
+          <div class="sobre-nosotros__item">
+            <span class="sobre-nosotros__icono">👁️</span>
+            <h3>Visión</h3>
+            <p>Ser referentes en el impulso de negocios locales, promoviendo la innovación y el crecimiento sostenible en Santiago.</p>
+          </div>
+          <div class="sobre-nosotros__item">
+            <span class="sobre-nosotros__icono">🤝</span>
+            <h3>Valores</h3>
+            <p>Compromiso, cercanía, transparencia y pasión por el desarrollo de nuestra comunidad.</p>
+          </div>
+          <div class="sobre-nosotros__controles">
+            <button class="sobre-nosotros__prev" aria-label="Anterior">&#8592;</button>
+            <button class="sobre-nosotros__next" aria-label="Siguiente">&#8594;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Servicios -->
+  <section class="servicios" id="servicios">
+    <div class="servicios__contenedor">
+      <h2 class="servicios__titulo">Nuestros Servicios</h2>
+      <div class="servicios__tarjetas" id="servicios-tarjetas">
+        <!-- Las tarjetas se cargarán dinámicamente -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Testimonios -->
+  <section class="testimonios" id="testimonios">
+    <div class="testimonios__contenedor">
+      <h2 class="testimonios__titulo">Testimonios de emprendedores</h2>
+      <div class="testimonios__carrusel">
+        <button class="testimonios__control" id="testimonios-prev" aria-label="Anterior">&#8592;</button>
+        <div id="testimonios-carrusel" style="display:flex;gap:32px;width:100%;justify-content:center;"></div>
+        <button class="testimonios__control" id="testimonios-next" aria-label="Siguiente">&#8594;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Preguntas Frecuentes (FAQ) -->
+  <section class="faq" id="preguntas">
+    <div class="faq__contenedor">
+      <h2 class="faq__titulo">Preguntas frecuentes</h2>
+      <div id="faq-lista"></div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section class="contacto" id="contacto">
+    <div class="contacto__contenedor">
+      <h2 class="contacto__titulo">Contáctanos</h2>
+      <form id="form-contacto" class="contacto__formulario" novalidate>
+        <div class="contacto__campo">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="50" placeholder="Tu nombre">
+          <span class="contacto__error" id="error-nombre"></span>
+        </div>
+        <div class="contacto__campo">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" name="correo" required placeholder="tucorreo@email.com">
+          <span class="contacto__error" id="error-correo"></span>
+        </div>
+        <div class="contacto__campo">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" required pattern="[0-9]{9,15}" placeholder="Ej: 912345678">
+          <span class="contacto__error" id="error-telefono"></span>
+        </div>
+        <div class="contacto__campo">
+          <label for="servicio">Servicio de interés</label>
+          <select id="servicio" name="servicio" required>
+            <option value="">Selecciona un servicio</option>
+            <option value="asesoria">Asesoría</option>
+            <option value="financiamiento">Financiamiento</option>
+            <option value="capacitacion">Capacitación</option>
+            <option value="redes">Redes y vinculación</option>
+          </select>
+          <span class="contacto__error" id="error-servicio"></span>
+        </div>
+        <button type="submit" class="contacto__enviar">Enviar</button>
+        <div class="contacto__mensaje" id="mensaje-exito" style="display:none;color:green;margin-top:1em;">¡Mensaje enviado correctamente!</div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__contenedor">
+      <div class="footer__logo-redes">
+        <img src="assets/imagenes/logo-sercotec.png" alt="Logo SERCOTEC" class="footer__logo">
+        <div class="footer__redes">
+          <a href="#" aria-label="Facebook SERCOTEC" class="footer__icono"><span>🌐</span></a>
+          <a href="#" aria-label="Instagram SERCOTEC" class="footer__icono"><span>📸</span></a>
+          <a href="#" aria-label="Twitter SERCOTEC" class="footer__icono"><span>🐦</span></a>
+        </div>
+      </div>
+      <div class="footer__info">
+        <span>&copy; 2026 SERCOTEC Santiago. Todos los derechos reservados.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/barra-navegacion.js"></script>
+  <script src="assets/js/sobre-nosotros.js"></script>
+  <script src="assets/js/servicios.js"></script>
+  <script src="assets/js/testimonios.js"></script>
+  <script src="assets/js/faq.js"></script>
+  <script src="assets/js/contacto.js"></script>
+</body>
+</html>
